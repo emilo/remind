@@ -27,7 +27,7 @@ for i in range(len(txt)):
             score = int(line[3]) - 1
             print("Better: " + line[1])
             input("Kikkaki")
-        line[2] = str(today + timedelta(days=score*score/2))
+        line[2] = str(today + timedelta(days=score*2))
         line[3] = str(score)
         txt[i] = ':::'.join(line) + '\n'
         writefile = open('questions.txt', 'w')
