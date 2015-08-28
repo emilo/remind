@@ -1,6 +1,7 @@
 """
-program for learning commands and words
-
+Program for learning commands and words
+You need a questions.txt file in the format:
+question:::answer
 """
 
 from datetime import date, timedelta, datetime
@@ -33,16 +34,7 @@ for i in range(len(txt)):
         writefile.writelines(txt)
 
 '''
-while true:
-    if qdate <= today:
-        question = txt.readline()
-        print(question)
-        answer = txt.readline()
-        score = txt.readline()
-        usersays = input()
-        if usersays == answer:
-            score += 1
-        else:
-            score -= 1
-# make a question creator
+Todo:
+ - make it possible to have different answers
+ make a question creator
 '''
