@@ -1,7 +1,7 @@
 """
 Program for learning commands and words
 You need a questions.txt file in the format:
-question:::answer
+question###answer
 """
 from time import time
 from datetime import date, timedelta, datetime
@@ -24,7 +24,7 @@ stats[5] = int(stats[5])  # Total answered right and above average cpm
 
 # Iterate through the lines in txt, bar the first stats line
 for i in range(1, len(txt)):
-    line = txt[i].strip().split(':::')
+    line = txt[i].strip().split('###')
     if len(line) < 3:
         line.append(str(date.today()))
         line.append('0')
@@ -50,7 +50,7 @@ for i in range(1, len(txt)):
             input("Kikkaki")
         line[2] = str(date.today() + timedelta(days=score*2))
         line[3] = str(score)
-        txt[i] = ':::'.join(line) + '\n'
+        txt[i] = '###'.join(line) + '\n'
 
 # make the relevant elements of stats string
 stats[1] = str(stats[1])
