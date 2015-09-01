@@ -1,44 +1,61 @@
-MemScore: 18 average_cpm: 40 #Answered: 28
-Hovestad i Albania###Tirana###2015-08-30###1
-Hovestad i Agerie###Alger###2015-08-30###2
-Hovestad i USA###Washington, D.C.###2015-08-30###2
-Hovestad i Andorra###Andorra la Vella###2015-08-30###1
-Hovestad i Angola###Luanda###2015-08-30###1
-Hovestad i Antigua og Barbuda###Saint John's###2015-08-30###1
-Hovestad i Argentina###Bueno Aires###2015-08-30###1
-Hovestad i Armenia###Jerevan###2015-08-30###2
+MemScore: 66 average_cpm: 31 #Answered: 93
+Hovestad i Albania###Tirana###2015-09-07###4
+Hovestad i Agerie###Alger###2015-09-09###5
+Hovestad i USA###Washington, D.C.###2015-09-09###4
+Hovestad i Andorra###Andorra la Vella###2015-09-07###4
+Hovestad i Angola###Luanda###2015-09-05###3
+Hovestad i Antigua og Barbuda###Saint John's###2015-09-03###2
+Hovestad i Argentina###Bueno Aires###2015-09-07###4
+Hovestad i Armenia###Jerevan###2015-09-09###5
 Hovestad i Aserbadshan###Baku###2015-09-04###3
-Hovestad i Australia###Canberra###2015-08-30###2
-(python, date) Get date of today###date.today()###2015-08-30###2
-Read the lines of file s###open('s').readlines()###2015-08-30###1
-with the text file txt go through all the lines(i)###for i in range(len(txt))###2015-08-30###1
-remove whitespace first and last in string s and split the words with ; ###s.strip().split(';')###2015-09-01###2
-add 'word' to list l###l.append('word')###2015-09-01###2
-python datetime, date make string s ('YYYY-mm-dd') a valid date object###datetime.strptime(s, '%Y-%m-%d').date()###2015-08-30###1
-Python, let user give input###input()###2015-09-01###2
-Python date timedelta, date in three days###date.today() + timedelta(days=3)###2015-09-01###2
-make a string of the elements of list l separated with ;###';'.join(l)###2015-08-30###1
-python, Open file myfile for writing###open('myfile', 'w')###2015-09-01###2
-Python, Write the lines txt in myfile###myfile.writelines(txt)###2015-08-30###1
+Hovestad i Australia###Canberra###2015-09-09###5
+(python, date) Get date of today###date.today()###2015-09-07###4
+Read the lines of file s###open('s').readlines()###2015-09-07###4
+with the text file txt go through all the lines(i)###for i in range(len(txt))###2015-09-05###3
+remove whitespace first and last in string s and split the words with ; ###s.strip().split(';')###2015-09-09###4
+add 'word' to list l###l.append('word')###2015-09-11###5
+python datetime, date make string s ('YYYY-mm-dd') a valid date object###datetime.strptime(s, '%Y-%m-%d').date()###2015-09-05###3
+Python, let user give input###input()###2015-09-11###5
+Python date timedelta, date in three days###date.today() + timedelta(days=3)###2015-09-03###1
+make a string of the elements of list l separated with ;###';'.join(l)###2015-09-05###3
+python, Open file myfile for writing###open('myfile', 'w')###2015-09-09###4
+Python, Write the lines txt in myfile###myfile.writelines(txt)###2015-09-05###3
 Vim. Delete a singel quote###da'###2015-09-02###2
-Python, time, find cpm. 'string' is written since timer###len('string')/(time()-timer)*60###2015-08-31###1
-Hovedsstad i Bahamas###Nassau###2015-08-31###1
-Hovedsstad i Bahrain###Manama###2015-08-31###1
-Hovedsstad i Bangladesh###Dhaka###2015-08-31###1
-Hovedsstad i Barbados###Bridgetown###2015-08-31###1
-Hovedsstad i Belgia###Brussel###2015-08-31###1
-Hovedsstad i Belize###Belmopan###2015-08-31###1
+Python, time, find cpm. 'string' is written since timer###len('string')/(time()-timer)*60###2015-09-07###3
+Hovedsstad i Bahamas###Nassau###2015-09-09###4
+Hovedsstad i Bahrain###Manama###2015-09-07###3
+Hovedsstad i Bangladesh###Dhaka###2015-09-07###3
+Hovedsstad i Barbados###Bridgetown###2015-09-09###4
+Hovedsstad i Belgia###Brussel###2015-09-09###4
+Hovedsstad i Belize###Belmopan###2015-09-07###3
 Hovedsstad i Benin###Porto-Novo###2015-09-02###2
 Hovedsstad i Bhutan###Thimpu###2015-09-04###3
-Hovedsstad i Bolivia###Sucre og La Paz###2015-08-31###1
-Hovedsstad i Bosnia-Hecegovina###Sarajevo###2015-08-31###1
-Hovedsstad i Botswana###Gaborone###2015-08-31###1
-Hovedsstad i Brasil###Brasilia###2015-08-31###1
+Hovedsstad i Bolivia###Sucre og La Paz###2015-09-09###4
+Hovedsstad i Bosnia-Hecegovina###Sarajevo###2015-09-07###3
+Hovedsstad i Botswana###Gaborone###2015-09-07###3
+Hovedsstad i Brasil###Brasilia###2015-09-09###4
 Hovedsstad i Brunei###Bandar Seri Begawan###2015-09-02###2
 Hovedsstad i Bulgaria###Sofia###2015-09-06###4
-Hovedsstad i Burkina Faso###Ouagadougou###2015-08-31###1
+Hovedsstad i Burkina Faso###Ouagadougou###2015-09-09###4
 Hovedsstad i Burundi###Bujumbura###2015-09-04###3
-Python. Import argv###from sys import argv###2015-08-31###1
-Python. Set filename to be argv###script, filename = argv###2015-08-31###1
+Python. Import argv###from sys import argv###2015-09-05###2
+Python. Set filename to be argv###script, filename = argv###2015-09-09###4
 Vim. Force reload of open file###:e!###2015-09-02###2
-Vim. Substiture s with ss in document###:%s/s/ss/g###2015-08-31###1
+Vim. Substiture s with ss in document###:%s/s/ss/g###2015-09-07###3
+Trening. Omtrent andel muskler av kroppsvekt###40%###2015-09-03###2
+Trening. Muskel ytterst til innerst###epimysium perimysium endomysium###2015-09-07###3
+Trening. Muskelpar foran og bak overarm###biceps, triceps###2015-09-05###3
+Trening. Muskelpar foran og bak laar###quadriceps, hamstrings###2015-09-03###2
+Trening. Muskelpar foran og bak overkroppen###abdominals, erector spinae###2015-09-07###3
+Trening. Musklfibre bestaar av###myofibril###2015-09-03###1
+Trening. Blokker av myofibril kalles###sarcomere###2015-09-05###2
+Trening. Sarcomere bestaar av proteinene###actin, myosin###2015-09-07###3
+Trening. When the muscle develops tension as it shortens###concentric###2015-09-05###2
+Trening. When the muscle develops tension as it lengthens###eccentric###2015-09-03###2
+Trening. When tension is created but the muscle does not move###isometric###2015-09-03###2
+Trening. Kan en musklelfiber gjore delvis sammentrekning?###nei###2015-09-09###4
+Trening. Features of Slow twitch muscles(for low intesity and longer duration)###type1, red, high mitochondria, slow to contract, slow to fatigue###2015-09-07###3
+Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###type2, white, low mitochondria, contract quickly, tire rapidly###2015-09-07###3
+Trening. Alias for muscle growth###hypotrophy###2015-09-03###1
+Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###testosteron###2015-09-05###3
+Trening. EPOC###Excess Post-exercise Oxygen Consumption###2015-09-05###2
