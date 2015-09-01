@@ -37,7 +37,6 @@ for i in range(1, len(txt)):
                 print('Bonus for great speed! +1')
                 stats[1] += 1
                 score += 1
-            score += 1
             stats[5] = stats[5] + 1
             stats[3] = int((stats[3]*(stats[5]-1)+cpm)/stats[5])
         else:

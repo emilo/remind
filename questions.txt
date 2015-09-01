@@ -1,4 +1,4 @@
-MemScore: 66 average_cpm: 31 #Answered: 93
+MemScore: 71 average_cpm: 28 #Answered: 101
 Hovestad i Albania###Tirana###2015-09-07###4
 Hovestad i Agerie###Alger###2015-09-09###5
 Hovestad i USA###Washington, D.C.###2015-09-09###4
@@ -20,7 +20,7 @@ Python date timedelta, date in three days###date.today() + timedelta(days=3)###2
 make a string of the elements of list l separated with ;###';'.join(l)###2015-09-05###3
 python, Open file myfile for writing###open('myfile', 'w')###2015-09-09###4
 Python, Write the lines txt in myfile###myfile.writelines(txt)###2015-09-05###3
-Vim. Delete a singel quote###da'###2015-09-02###2
+Vim. Delete a singel quote###da'###2015-09-10###4
 Python, time, find cpm. 'string' is written since timer###len('string')/(time()-timer)*60###2015-09-07###3
 Hovedsstad i Bahamas###Nassau###2015-09-09###4
 Hovedsstad i Bahrain###Manama###2015-09-07###3
@@ -28,19 +28,19 @@ Hovedsstad i Bangladesh###Dhaka###2015-09-07###3
 Hovedsstad i Barbados###Bridgetown###2015-09-09###4
 Hovedsstad i Belgia###Brussel###2015-09-09###4
 Hovedsstad i Belize###Belmopan###2015-09-07###3
-Hovedsstad i Benin###Porto-Novo###2015-09-02###2
+Hovedsstad i Benin###Porto-Novo###2015-09-10###4
 Hovedsstad i Bhutan###Thimpu###2015-09-04###3
 Hovedsstad i Bolivia###Sucre og La Paz###2015-09-09###4
 Hovedsstad i Bosnia-Hecegovina###Sarajevo###2015-09-07###3
 Hovedsstad i Botswana###Gaborone###2015-09-07###3
 Hovedsstad i Brasil###Brasilia###2015-09-09###4
-Hovedsstad i Brunei###Bandar Seri Begawan###2015-09-02###2
+Hovedsstad i Brunei###Bandar Seri Begawan###2015-09-04###1
 Hovedsstad i Bulgaria###Sofia###2015-09-06###4
 Hovedsstad i Burkina Faso###Ouagadougou###2015-09-09###4
 Hovedsstad i Burundi###Bujumbura###2015-09-04###3
 Python. Import argv###from sys import argv###2015-09-05###2
 Python. Set filename to be argv###script, filename = argv###2015-09-09###4
-Vim. Force reload of open file###:e!###2015-09-02###2
+Vim. Force reload of open file###:e!###2015-09-10###4
 Vim. Substiture s with ss in document###:%s/s/ss/g###2015-09-07###3
 Trening. Omtrent andel muskler av kroppsvekt###40%###2015-09-03###2
 Trening. Muskel ytterst til innerst###epimysium perimysium endomysium###2015-09-07###3
@@ -59,3 +59,8 @@ Trening. Features of Fast Twitch muscles(for high intensity and shorter duration
 Trening. Alias for muscle growth###hypotrophy###2015-09-03###1
 Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###testosteron###2015-09-05###3
 Trening. EPOC###Excess Post-exercise Oxygen Consumption###2015-09-05###2
+Hovedstad i Canada###Ottawa###2015-09-08###3
+Hovedstad i Chile###Santiago de Chile, Valparaiso###2015-09-06###2
+Hovedstad i Colombia###Bogota###2015-09-08###3
+Hovedstad i Costa Rica###San Jose###2015-09-08###3
+Hovedstad i Cuba###Havana###2015-09-08###3
