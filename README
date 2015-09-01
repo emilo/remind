@@ -1,5 +1,5 @@
-Program for learning commands and words. The program will reward you if you answer question
-right and fast.  Then it will not ask the same question for a while. So it gives you
+CLI program for learning commands and words. The program will reward you if you answer question
+right and fast. Then it will not ask the same question for a while. So it gives you
 spaced repetition.
 
 You need a questions.txt file in the format:
