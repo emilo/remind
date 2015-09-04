@@ -2,6 +2,7 @@
 Program for learning commands and words
 You need a questions.txt file in the format:
 question###answer
+first line empty and no ending lines
 """
 from time import time
 from datetime import date, timedelta, datetime
