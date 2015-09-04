@@ -1,13 +1,13 @@
-MemScore: 71 average_cpm: 28 #Answered: 101
+MemScore: 24 average_cpm: 62 #Answered: 34
 Hovestad i Albania###Tirana###2015-09-07###4
 Hovestad i Agerie###Alger###2015-09-09###5
 Hovestad i USA###Washington, D.C.###2015-09-09###4
 Hovestad i Andorra###Andorra la Vella###2015-09-07###4
 Hovestad i Angola###Luanda###2015-09-05###3
-Hovestad i Antigua og Barbuda###Saint John's###2015-09-03###2
+Hovestad i Antigua og Barbuda###Saint John's###2015-09-11###4
 Hovestad i Argentina###Bueno Aires###2015-09-07###4
 Hovestad i Armenia###Jerevan###2015-09-09###5
-Hovestad i Aserbadshan###Baku###2015-09-04###3
+Hovestad i Aserbadshan###Baku###2015-09-14###5
 Hovestad i Australia###Canberra###2015-09-09###5
 (python, date) Get date of today###date.today()###2015-09-07###4
 Read the lines of file s###open('s').readlines()###2015-09-07###4
@@ -16,7 +16,7 @@ remove whitespace first and last in string s and split the words with ; ###s.str
 add 'word' to list l###l.append('word')###2015-09-11###5
 python datetime, date make string s ('YYYY-mm-dd') a valid date object###datetime.strptime(s, '%Y-%m-%d').date()###2015-09-05###3
 Python, let user give input###input()###2015-09-11###5
-Python date timedelta, date in three days###date.today() + timedelta(days=3)###2015-09-03###1
+Python date timedelta, date in three days###date.today() + timedelta(days=3)###2015-09-09###3
 make a string of the elements of list l separated with ;###';'.join(l)###2015-09-05###3
 python, Open file myfile for writing###open('myfile', 'w')###2015-09-09###4
 Python, Write the lines txt in myfile###myfile.writelines(txt)###2015-09-05###3
@@ -29,34 +29,34 @@ Hovedsstad i Barbados###Bridgetown###2015-09-09###4
 Hovedsstad i Belgia###Brussel###2015-09-09###4
 Hovedsstad i Belize###Belmopan###2015-09-07###3
 Hovedsstad i Benin###Porto-Novo###2015-09-10###4
-Hovedsstad i Bhutan###Thimpu###2015-09-04###3
-Hovedsstad i Bolivia###Sucre og La Paz###2015-09-09###4
+Hovedsstad i Bhutan###Thimpu###2015-09-12###4
+Hovedsstad i Bolivia###Sucre ,La Paz###2015-09-09###4
 Hovedsstad i Bosnia-Hecegovina###Sarajevo###2015-09-07###3
 Hovedsstad i Botswana###Gaborone###2015-09-07###3
 Hovedsstad i Brasil###Brasilia###2015-09-09###4
-Hovedsstad i Brunei###Bandar Seri Begawan###2015-09-04###1
+Hovedsstad i Brunei###Bandar Seri Begawan###2015-09-05###1
 Hovedsstad i Bulgaria###Sofia###2015-09-06###4
 Hovedsstad i Burkina Faso###Ouagadougou###2015-09-09###4
-Hovedsstad i Burundi###Bujumbura###2015-09-04###3
+Hovedsstad i Burundi###Bujumbura###2015-09-08###2
 Python. Import argv###from sys import argv###2015-09-05###2
 Python. Set filename to be argv###script, filename = argv###2015-09-09###4
 Vim. Force reload of open file###:e!###2015-09-10###4
 Vim. Substiture s with ss in document###:%s/s/ss/g###2015-09-07###3
-Trening. Omtrent andel muskler av kroppsvekt###40%###2015-09-03###2
+Trening. Omtrent andel muskler av kroppsvekt###40%###2015-09-11###4
 Trening. Muskel ytterst til innerst###epimysium perimysium endomysium###2015-09-07###3
 Trening. Muskelpar foran og bak overarm###biceps, triceps###2015-09-05###3
-Trening. Muskelpar foran og bak laar###quadriceps, hamstrings###2015-09-03###2
+Trening. Muskelpar foran og bak laar###quadriceps, hamstrings###2015-09-05###1
 Trening. Muskelpar foran og bak overkroppen###abdominals, erector spinae###2015-09-07###3
-Trening. Musklfibre bestaar av###myofibril###2015-09-03###1
+Trening. Musklfibre bestaar av###myofibril###2015-09-09###3
 Trening. Blokker av myofibril kalles###sarcomere###2015-09-05###2
 Trening. Sarcomere bestaar av proteinene###actin, myosin###2015-09-07###3
 Trening. When the muscle develops tension as it shortens###concentric###2015-09-05###2
-Trening. When the muscle develops tension as it lengthens###eccentric###2015-09-03###2
-Trening. When tension is created but the muscle does not move###isometric###2015-09-03###2
+Trening. When the muscle develops tension as it lengthens###eccentric###2015-09-09###3
+Trening. When tension is created but the muscle does not move###isometric###2015-09-11###4
 Trening. Kan en musklelfiber gjore delvis sammentrekning?###nei###2015-09-09###4
 Trening. Features of Slow twitch muscles(for low intesity and longer duration)###type1, red, high mitochondria, slow to contract, slow to fatigue###2015-09-07###3
 Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###type2, white, low mitochondria, contract quickly, tire rapidly###2015-09-07###3
-Trening. Alias for muscle growth###hypotrophy###2015-09-03###1
+Trening. Alias for muscle growth###hypotrophy###2015-09-09###3
 Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###testosteron###2015-09-05###3
 Trening. EPOC###Excess Post-exercise Oxygen Consumption###2015-09-05###2
 Hovedstad i Canada###Ottawa###2015-09-08###3
@@ -64,3 +64,24 @@ Hovedstad i Chile###Santiago de Chile, Valparaiso###2015-09-06###2
 Hovedstad i Colombia###Bogota###2015-09-08###3
 Hovedstad i Costa Rica###San Jose###2015-09-08###3
 Hovedstad i Cuba###Havana###2015-09-08###3
+Hovedstad i Danmark###København###2015-09-07###2
+Hovedstad i Djibouti###Djibouti###2015-09-07###2
+Hovedstad i Dominica###Roseau###2015-09-05###1
+Hovedstad i Den Dominikanske Republikk###Santo Domingo###2015-09-05###1
+Brystkassens muskler. Musculus serratus anterior, Musculi intercostales, Musculus pectoralis major###Fremre sagmuskel, Intercostalmuskel, Stor brystmuskel###2015-09-05###1
+Django. Starte et nytt prosjekt foo fra project_name###django-admin.py startproject foo --template=project_name###2015-09-05###1
+Django. Gi urlpattern fra stammen som peker til index og navn homepage###url(r'^$', index, name='homepage')###2015-09-07###2
+Django. Gi urlpattern fra image/ med tall i <width> x <height> som peker til placeholder###url(r'^image/(?P<width>[0-9]+)x(?P<height>[0-9]+)/$', placeholder)###2015-09-05###1
+Django. Importer url###from django.conf.urls import url###2015-09-05###1
+Django. Importer HttpResponse###from django.http import HttpResponse###2015-09-05###1
+Django. Importer settings###from django.conf import settings###2015-09-07###2
+Django. Importer get_wsgi_application###from django.core.wsgi import get_wsgi_application###2015-09-05###1
+Hovedstad i Ecuador###Quito###2015-09-06###2
+Hovedstad i Egypt###Kairo###2015-09-05###1
+Hovedstad i Ekvatorial-Guinea###Malabo###2015-09-06###2
+Hovedstad i El Salvador###San Salvador###2015-09-05###1
+Hovedstad i Elfenbenkyster###Yamoussoukro, Abidjan###2015-09-06###2
+Hovedstad i Eritrea###Asmara###2015-09-05###1
+Hovedstad i Estland###Tallinn###2015-09-06###2
+Hovedstad i Etiopia###Addis Abeba###2015-09-05###1
+Muskel i brystkassen. Fremre sagmuskel###Musculus serratus anterior###2015-09-06###2

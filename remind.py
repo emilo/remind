@@ -19,7 +19,7 @@ stats = stats.split()
 for i in range(1, len(txt)):
     stats[1] = int(stats[1])  # Total score
     stats[3] = int(stats[3])  # Average Characters per minute
-    stats[5] = int(stats[5])  # Total answered right and above average cpm
+    stats[5] = int(stats[5])  # Total answered right
     line = txt[i].strip().split('###')
     if len(line) < 3:
         line.append(str(date.today()))
@@ -29,21 +29,22 @@ for i in range(1, len(txt)):
         print(line[0])
         timer = time()
         answer = input()
-        if answer == line[1]:
+        if answer.lower() == line[1].lower():  # So, no matter caps or not
             cpm = int(len(line[1])/(time()-timer)*60)
             print('Good: %s characters per minute' % cpm)
-            score = int(line[3]) + 1
-            if cpm > stats[3]:
-                print('Bonus for great speed! +1')
-                stats[1] += 1
-                score += 1
+            scorebonus = int(cpm/stats[3])
+            score = int(int(line[3]) + scorebonus + 1)
+            print('Speed bonus: %s ' % scorebonus)
             stats[5] = stats[5] + 1
+            # calkulate new average cpm
             stats[3] = int((stats[3]*(stats[5]-1)+cpm)/stats[5])
+            # Update score
+            stats[1] += scorebonus
         else:
             score = int(line[3]) - 1
             print("Better: " + line[1])
             input("Kikkaki")
-        line[2] = str(date.today() + timedelta(days=score*2))
+        line[2] = str(date.today() + timedelta(days=score))
         line[3] = str(score)
         txt[i] = '###'.join(line) + '\n'
     # make the relevant elements of stats string
