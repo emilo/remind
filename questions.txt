@@ -1,4 +1,4 @@
-MemScore: 24 average_cpm: 62 #Answered: 34
+MemScore: 24 average_cpm: 59 #Answered: 36
 Hovestad i Albania###Tirana###2015-09-07###4
 Hovestad i Agerie###Alger###2015-09-09###5
 Hovestad i USA###Washington, D.C.###2015-09-09###4
@@ -85,3 +85,5 @@ Hovedstad i Eritrea###Asmara###2015-09-05###1
 Hovedstad i Estland###Tallinn###2015-09-06###2
 Hovedstad i Etiopia###Addis Abeba###2015-09-05###1
 Muskel i brystkassen. Fremre sagmuskel###Musculus serratus anterior###2015-09-06###2
+Vim. Search for foo and replace with bar throug all document, ask for confirmation###:%s/foo/bar/gc###2015-09-05###1
+Vim. yank all document to + register###:%y+###2015-09-05###1
