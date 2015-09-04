@@ -21,6 +21,7 @@ for i in range(1, len(txt)):
     stats[3] = int(stats[3])  # Average Characters per minute
     stats[5] = int(stats[5])  # Total answered right
     line = txt[i].strip().split('###')
+    # if missing, append date and score for question
     if len(line) < 3:
         line.append(str(date.today()))
         line.append('0')
@@ -29,9 +30,11 @@ for i in range(1, len(txt)):
         print(line[0])
         timer = time()
         answer = input()
-        if answer.lower() == line[1].lower():  # So, no matter caps or not
+        if answer.lower() == line[1].lower():  # check anser, no matter caps
+            # Calcultate characters per minute
             cpm = int(len(line[1])/(time()-timer)*60)
             print('Good: %s characters per minute' % cpm)
+            # Scorebonus dependent on speed
             scorebonus = int(cpm/stats[3])
             score = int(int(line[3]) + scorebonus + 1)
             print('Speed bonus: %s ' % scorebonus)
@@ -56,6 +59,7 @@ for i in range(1, len(txt)):
     writefile = open(questionfile, 'w')
     writefile.writelines(txt)
 
+# print the stats
 print(txt[0])
 print("You are good!")
 '''
