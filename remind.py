@@ -60,15 +60,8 @@ for i in range(1, len(txt)):
         timer = time()
         answer = input()
 
-        if answer.lower() == ranswer.lower():
+        if answer.lower().replace(' ', '') == ranswer.lower().replace(' ', ''):
             goodanswer()
-        elif 'Python' in question:
-            try:
-                if eval(answer) == eval(ranswer):
-                    print('good python, god will reward you')
-                    goodanswer()
-            except SyntaxError:
-                pass
         else:
             score = score - 1
             print(ranswer)
