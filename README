@@ -2,12 +2,15 @@ CLI program for learning commands and words. The program will reward you if you
 answer question right and fast. Then it will not ask the same question for a
 while. So it gives you spaced repetition.
 
-You need a questions.txt file in the format: question###answer
+Put files in a 'lists' folder. 
+Format is one expression you want to learn per line
+or you can have lines with following format:
+expression###definition
 
-First line in your questions file will be used for stats. Leave it empty
+You might want to do backup of your lists
+You dont want to have other stuff in the lists folder because lots of damage.
 
-My questions file are just for personal backout. You better use your own.
-
+This program is work in progress. Use on own risk.
 
 You need python 3
 
