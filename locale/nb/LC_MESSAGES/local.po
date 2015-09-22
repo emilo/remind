@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-09-22 15:41+0200\n"
+"PO-Revision-Date: 2015-09-22 15:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: remind.py:30
+msgid "MemScore: 0 average_cpm: 100 Answered: 0"
+msgstr "Poeng: 0 Tegn_i_minuttet: 100 Svart: 0"
+
+#: remind.py:45
+msgid "Reading expression file: lists/"
+msgstr "Nytt uttrykk fra filen: "
+
+#: remind.py:52 remind.py:55
+msgid "New expression is: "
+msgstr "Nytt uttrykk er: "
+
+#: remind.py:53
+msgid "Definition is: "
+msgstr "Definisjonen er: "
+
+#: remind.py:56
+msgid "Make it stick to memory, then kick enter"
+msgstr "Få dette inn i skallen og klapp en Ent"
+
+#: remind.py:65
+msgid "wrote file"
+msgstr "Skrev til verden"
+
+#: remind.py:72
+msgid "Good: %s characters per minute"
+msgstr "Riktig!              %s tegn i minuttet"
+
+#: remind.py:76
+msgid "Speed bonus: %s "
+msgstr "Ekstrapoeng for høy fart: %s "
+
+#: remind.py:99
+msgid "Please define %s : "
+msgstr "Forklar uttrykket %s: "
+
+#: remind.py:100
+msgid "confirm with \"ja\": "
+msgstr "Bekreft med 'ja': "
+
+#: remind.py:122
+msgid "Give the expression: "
+msgstr "Gi uttrykket: "
+
+#: remind.py:124
+msgid "save"
+msgstr "lagre"
+
+#: remind.py:136
+msgid "Something wrong here"
+msgstr "Her var det noe... littegrann..... merkelig..."
+
+#: remind.py:137
+msgid "you can of course add your answer as synonyme"
+msgstr "Du kan legge til ditt svar som synonym"
+
+#: remind.py:139
+msgid "synonyme"
+msgstr "synonym"
+
+#: remind.py:142
+msgid "Next repetition: "
+msgstr "Dato for neste turn"
+
+#: remind.py:157
+msgid "New expressions: "
+msgstr "Nye uttrykk: "
+
+#: remind.py:164
+msgid "This expression file is probably empty"
+msgstr "Fila er trolig tom."
+
+#: remind.py:170
+msgid "You are good!"
+msgstr "Vel gjort. Nå kan du øve en gang til :-)"
