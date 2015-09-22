@@ -10,10 +10,12 @@ from os import listdir
 from random import randint
 from sys import exit
 
-# Flytte getquestions til etter hovedloopen
-# Lage save funksjon som kjoerer etter hovedloopen og etter oenske# Lage save
-# funksjon som kjoerer etter hovedloopen og etter oenske# Lage save funksjon
-# ogsom kjoerer etter hovedloopen og etter oenske
+# mulighet til forandre definisjon
+# mulighet til legge til avgitt svar som riktig uttrykk til definisjonen
+# mulighet til slette definisjon og uttrykk
+# rens skjermen for hver oppgave
+
+
 # Open the question file and read the lines into txt list
 questionfile = 'nyquestion.txt'
 txt = open(questionfile).readlines()
@@ -37,7 +39,8 @@ def getnewquestion():
     xfiles = listdir('lists')  # readlines of files into list
     xfile = xfiles[randint(0, len(xfiles)-1)]
     print('Reading expression file: lists/' + xfile)
-    expression = open('lists/' + xfile, encoding='utf-8', errors='ignore').readlines()
+    expression = open('lists/' +
+                      xfile, encoding='utf-8', errors='ignore').readlines()
     global txt
     txt.append(expression[0])
     if '###' in expression[0]:
@@ -55,6 +58,7 @@ def save():
     # Write line to file
     writefile = open(questionfile, 'w')
     writefile.writelines(txt)
+    print('wrote file')
 
 
 def goodanswer():
@@ -79,7 +83,7 @@ newexpressions = 0
 
 # Go through the lines in txt, bar the first stats line
 for i in range(1, len(txt)):
-    if numquestions == 0:
+    if qcounter >= numquestions:
         break
     # split the line and make a line list
     line = txt[i].strip().split('###')
@@ -88,8 +92,8 @@ for i in range(1, len(txt)):
         print(expression)
         definition = ''
         while definition == '':
-            definition = input('Please define %s :' % expression)
-            confirmation = input('confirm with "ja"')
+            definition = input('Please define %s : ' % expression)
+            confirmation = input('confirm with "ja": ')
             if confirmation != 'ja':
                 definition = ''
         line.append(definition)
@@ -113,16 +117,27 @@ for i in range(1, len(txt)):
         if answer == 'save':
             save()
             exit(0)
-
-        if answer.lower().replace(' ', '') == expression.lower().replace(' ', ''):
+        # make a list splittet with ';;;'
+        elist = expression.split(';;;')
+        blist = [x.lower().replace(' ', '') for x in elist]
+        # evaluate through list of possible right expressions
+        if answer.lower().replace(' ', '') in blist:
             goodanswer()
         else:
             score = score - 1
-            print(expression)
-            input("Maybe some practice will help? ")
+            print(elist)
+            print('Something wrong here')
+            print('you can of course add your answer as synonyme')
+            errorinput = input()
+            if errorinput == 'synonyme':
+                elist.append(answer)
+                line[0] = ';;;'.join(elist)
         line[2] = str(date.today() + timedelta(days=score))
         line[3] = str(score)
         txt[i] = '###'.join(line) + '\n'
+        print(txt[i])
+        save()
+        input()
     # make the relevant elements of stats string
     stats[1] = str(totalscore)
     stats[3] = str(averagecpm)

@@ -1,106 +1,134 @@
-MemScore: 261 average_cpm: 11 #Answered: 228
-Tirana###Hovestad i Albania###2015-09-13###6
-Alger###Hovestad i Agerie###2015-09-15###4
-Washington, D.C.###Hovestad i USA###2015-09-14###3
-Andorra la Vella###Hovestad i Andorra###2015-09-17###6
-Luanda###Hovestad i Angola###2015-09-14###3
-Saint John's###Hovestad i Antigua og Barbuda###2015-09-16###5
-Bueno Aires###Hovestad i Argentina###2015-09-17###6
-Jerevan###Hovestad i Armenia###2015-09-18###7
-Baku###Hovestad i Aserbadshan###2015-09-14###5
-Canberra###Hovestad i Australia###2015-09-20###9
-date.today()###(python, date) Get date of today###2015-09-16###5
-open('s').readlines()###Read the lines of file s###2015-09-13###2
-for i in range(len(txt))###with the text file txt go through all the lines(i)###2015-09-14###3
-s.strip().split(';')###remove whitespace first and last in string s and split the words with ; ###2015-09-14###3
-l.append('word')###add 'word' to list l###2015-09-18###7
-datetime.strptime(s, '%Y-%m-%d').date()###python datetime, date make string s ('YYYY-mm-dd') a valid date object###2015-09-17###6
-input()###Python, let user give input###2015-09-15###4
-date.today() + timedelta(days=3)###Python date timedelta, date in three days###2015-09-15###4
-';'.join(l)###make a string of the elements of list l separated with ;###2015-09-14###3
-open('myfile', 'w')###python, Open file myfile for writing###2015-09-14###3
-myfile.writelines(txt)###Python, Write the lines txt in myfile###2015-09-17###6
-da'###Vim. Delete a singel quote###2015-09-16###5
-len('string')/(time()-timer)*60###Python, time, find cpm. 'string' is written since timer###2015-09-16###5
-Nassau###Hovedsstad i Bahamas###2015-09-14###3
-Manama###Hovedsstad i Bahrain###2015-09-17###5
-Dhaka###Hovedsstad i Bangladesh###2015-09-16###5
-Bridgetown###Hovedsstad i Barbados###2015-09-18###7
-Brussel###Hovedsstad i Belgia###2015-09-18###7
-Belmopan###Hovedsstad i Belize###2015-09-15###4
-Porto-Novo###Hovedsstad i Benin###2015-09-14###3
-Thimpu###Hovedsstad i Bhutan###2015-09-15###3
-Sucre ,La Paz###Hovedsstad i Bolivia###2015-09-14###3
-Sarajevo###Hovedsstad i Bosnia-Hecegovina###2015-09-20###8
-Gaborone###Hovedsstad i Botswana###2015-09-15###3
-Brasilia###Hovedsstad i Brasil###2015-09-17###6
-Bandar Seri Begawan###Hovedsstad i Brunei###2015-09-18###6
-Sofia###Hovedsstad i Bulgaria###2015-09-20###8
-Ouagadougou###Hovedsstad i Burkina Faso###2015-09-16###5
-Bujumbura###Hovedsstad i Burundi###2015-09-16###4
-from sys import argv###Python. Import argv###2015-09-19###8
-script, filename = argv###Python. Set filename to be argv###2015-09-18###7
-:e!###Vim. Force reload of open file###2015-09-16###5
-:%s/s/ss/g###Vim. Substiture s with ss in document###2015-09-17###6
-40%###Trening. Omtrent andel muskler av kroppsvekt###2015-09-17###6
-epimysium perimysium endomysium###Trening. Muskel ytterst til innerst###2015-09-16###4
-biceps, triceps###Trening. Muskelpar foran og bak overarm###2015-09-19###8
-quadriceps, hamstrings###Trening. Muskelpar foran og bak laar###2015-09-13###5
-abdominals, erector spinae###Trening. Muskelpar foran og bak overkroppen###2015-09-19###7
-myofibril###Trening. Musklfibre bestaar av###2015-09-13###2
-sarcomere###Trening. Blokker av myofibril kalles###2015-09-22###10
-actin, myosin###Trening. Sarcomere bestaar av proteinene###2015-09-16###5
-concentric###Trening. When the muscle develops tension as it shortens###2015-09-13###5
-eccentric###Trening. When the muscle develops tension as it lengthens###2015-09-16###5
-isometric###Trening. When tension is created but the muscle does not move###2015-09-16###5
-nei###Trening. Kan en musklelfiber gjore delvis sammentrekning?###2015-09-17###6
-type1, red, high mitochondria###Trening. Features of Slow twitch muscles(for low intesity and longer duration)###2015-09-15###3
-type2, white, low mitochondria###Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###2015-09-18###6
-hypotrophy###Trening. Alias for muscle growth###2015-09-17###6
-testosteron###Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###2015-09-17###6
-Excess Post-exercise Oxygen Consumption###Trening. EPOC###2015-09-15###4
-Ottawa###Hovedstad i Canada###2015-09-15###4
-Santiago de Chile, Valparaiso###Hovedstad i Chile###2015-09-15###3
-Bogota###Hovedstad i Colombia###2015-09-13###5
-San Jose###Hovedstad i Costa Rica###2015-09-16###4
-Havana###Hovedstad i Cuba###2015-09-13###5
-København###Hovedstad i Danmark###2015-09-18###7
-Djibouti###Hovedstad i Djibouti###2015-09-17###6
-Roseau###Hovedstad i Dominica###2015-09-16###5
-Santo Domingo###Hovedstad i Den Dominikanske Republikk###2015-09-13###1
-Fremre sagmuskel, Intercostalmuskel, Stor brystmuskel###Brystkassens muskler. Musculus serratus anterior, Musculi intercostales, Musculus pectoralis major###2015-09-14###6
-django-admin.py startproject foo --template=project_name###Django. Starte et nytt prosjekt foo fra project_name###2015-09-18###6
-url(r'^$', index, name='homepage')###Django. Gi urlpattern fra stammen som peker til index og navn homepage###2015-09-13###2
-url(r'^image/(?P<width>[0-9]+)x(?P<height>[0-9]+)/$', placeholder)###Django. Gi urlpattern fra image/ med tall i <width> x <height> som peker til placeholder###2015-09-15###4
-from django.conf.urls import url###Django. Importer url###2015-09-18###7
-from django.http import HttpResponse###Django. Importer HttpResponse###2015-09-15###3
-from django.conf import settings###Django. Importer settings###2015-09-16###4
-from django.core.wsgi import get_wsgi_application###Django. Importer get_wsgi_application###2015-09-22###10
-Quito###Hovedstad i Ecuador###2015-09-16###5
-Kairo###Hovedstad i Egypt###2015-09-13###5
-Malabo###Hovedstad i Ekvatorial-Guinea###2015-09-14###2
-San Salvador###Hovedstad i El Salvador###2015-09-21###10
-Yamoussoukro, Abidjan###Hovedstad i Elfenbenkyster###2015-09-15###3
-Asmara###Hovedstad i Eritrea###2015-09-13###5
-Tallinn###Hovedstad i Estland###2015-09-14###3
-Addis Abeba###Hovedstad i Etiopia###2015-09-16###4
-Musculus serratus anterior###Muskel i brystkassen. Fremre sagmuskel###2015-09-14###3
-:%s/foo/bar/gc###Vim. Search for foo and replace with bar throug all document, ask for confirmation###2015-09-16###5
-:%y+###Vim. yank all document to + register###2015-09-14###2
-perl-rename 'y/A-Z/a-z/' *###Terminal. gi filnavn i folder smaa bokstaver###2015-09-15###4
-[2*x for x in {2,4,6}]###Python, comprehensions. Lag en liste der du dobler elementene(x) i set {2,4,6}###2015-09-13###2
-[x*y for x in [1,2,4] for y in [5,6,7]]###Python, double comprehensions. Lag en liste med produktet av elementene(x) i [1,2,4] og elemetne(y)i[5,6,7]###2015-09-14###3
-{ x*x for x in {1,2,3,4,5} }###Python. Write a comprehension over {1, 2, 3, 4, 5} whose value is the set consisting of the squares of the first five positive integers.###2015-09-14###3
-datetime.strptime('2006-10-22', '%Y-%m-%d').date()###Python datetime, date make string '2006-10-22' ('YYYY-mm-dd') a valid date object###2015-09-15###3
-der###the; which; who; bestimmte artikel nomitave Maskulin; bestimmte artikel dat/gen feminien Form###2015-09-13###1
-die###the; which; who; bestimmte artikel nom/akk Feminin/Plural###2015-09-14###2
-und###Deutsche wörter. and; og; konjunksjon###2015-09-15###3
-Absinthe### wormwood liquor of a bright-green color###2015-09-17###5
-Acciaccatura### grace note, an embellishing note usually written in smaller size###2015-09-14###2
-in###Deutsche wörte. Norsk 'i', english at; chunkily; in; into; on###2015-09-14###2
-Acedia### ennui; state of torpor or listlessness; spiritual apathy###2015-09-13###1
-Acervuline### aggregated, heaped up, bundled, collected or localized###2015-09-10###-2
-Acidulous### somewhat acidic or sour in taste or manner; somewhat sarcastic###2015-09-19###7
-Acolyte### ranked clergy member; assistant in liturgical rites
-den
-von
+MemScore: 146 average_cpm: 20 Answered: 141
+Tirana###Hovestad i Albania###2015-09-27###14
+Alger###Hovestad i Agerie###2015-09-24###9
+Washington, D.C.###Hovestad i USA###2015-09-24###9
+Andorra la Vella###Hovestad i Andorra###2015-09-24###5
+Luanda###Hovestad i Angola###2015-10-01###9
+Saint John's###Hovestad i Antigua og Barbuda###2015-09-27###5
+Bueno Aires###Hovestad i Argentina###2015-09-28###9
+Jerevan###Hovestad i Armenia###2015-09-25###6
+Baku###Hovestad i Aserbadshan###2015-09-24###2
+Canberra###Hovestad i Australia###2015-10-01###11
+date.today()###(python, date) Get date of today###2015-09-30###8
+open('s').readlines()###Read the lines of file s###2015-09-23###10
+for i in range(len(txt)):###with the text file txt go through all the lines(i)###2015-09-27###5
+s.strip().split(';')###remove whitespace first and last in string s and split the words with ; ###2015-09-26###6
+l.append('word')###add 'word' to list l###2015-09-27###8
+datetime.strptime(s, '%Y-%m-%d').date()###python datetime, date make string s ('YYYY-mm-dd') a valid date object###2015-09-26###7
+input()###Python, let user give input###2015-10-02###10
+date.today() + timedelta(days=3)###Python date timedelta, date in three days###2015-09-24###5
+';'.join(l)###make a string of the elements of list l separated with ;###2015-10-01###9
+open('myfile', 'w')###python, Open file myfile for writing###2015-10-01###9
+myfile.writelines(txt)###Python, Write the lines txt in myfile###2015-09-27###8
+da'###Vim. Delete a singel quote###2015-09-25###5
+len('string')/(time()-timer)*60###Python, time, find cpm. 'string' is written since timer###2015-09-27###5
+Nassau###Hovedsstad i Bahamas###2015-09-24###2
+Manama###Hovedsstad i Bahrain###2015-09-23###4
+Dhaka###Hovedsstad i Bangladesh###2015-10-01###9
+Bridgetown###Hovedsstad i Barbados###2015-09-25###6
+Brussel###Hovedsstad i Belgia###2015-09-28###9
+Belmopan###Hovedsstad i Belize###2015-09-24###4
+Porto-Novo###Hovedsstad i Benin###2015-09-23###4
+Thimpu###Hovedsstad i Bhutan###2015-10-03###11
+Sucre ,La Paz###Hovedsstad i Bolivia###2015-09-24###4
+Sarajevo###Hovedsstad i Bosnia-Hecegovina###2015-10-01###11
+Gaborone###Hovedsstad i Botswana###2015-09-23###4
+Brasilia###Hovedsstad i Brasil###2015-09-28###9
+Bandar Seri Begawan###Hovedsstad i Brunei###2015-09-24###5
+Sofia###Hovedsstad i Bulgaria###2015-10-01###11
+Ouagadougou###Hovedsstad i Burkina Faso###2015-09-23###3
+Bujumbura###Hovedsstad i Burundi###2015-09-24###5
+from sys import argv###Python. Import argv###2015-09-29###10
+script, filename = argv###Python. Set filename to be argv###2015-09-28###9
+:e!###Vim. Force reload of open file###2015-09-29###7
+:%s/s/ss/g###Vim. Substiture s with ss in document###2015-09-26###7
+40%###Trening. Omtrent andel muskler av kroppsvekt###2015-09-26###7
+epimysium perimysium endomysium;;;epimysium, perimysium, endomysium###Trening. Muskel ytterst til innerst###2015-09-27###6
+biceps, triceps###Trening. Muskelpar foran og bak overarm###2015-09-26###7
+quadriceps, hamstrings###Trening. Muskelpar foran og bak laar###2015-09-26###7
+abdominals, erector spinae###Trening. Muskelpar foran og bak overkroppen###2015-09-28###9
+myofibril###Trening. Musklfibre bestaar av###2015-09-26###7
+sarcomere###Trening. Blokker av myofibril kalles###2015-10-07###15
+actin, myosin###Trening. Sarcomere bestaar av proteinene###2015-10-02###10
+concentric###Trening. When the muscle develops tension as it shortens###2015-09-26###13
+eccentric###Trening. When the muscle develops tension as it lengthens###2015-10-02###10
+isometric###Trening. When tension is created but the muscle does not move###2015-09-23###7
+nei###Trening. Kan en musklelfiber gjore delvis sammentrekning?###2015-09-27###8
+type1, red, high mitochondria###Trening. Features of Slow twitch muscles(for low intesity and longer duration)###2015-09-24###9
+type2, white, low mitochondria###Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###2015-09-28###9
+hypotrophy###Trening. Alias for muscle growth###2015-09-25###5
+testosteron;;;testosterone###Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###2015-09-25###5
+Excess Post-exercise Oxygen Consumption###Trening. EPOC###2015-09-26###6
+Ottawa###Hovedstad i Canada###2015-09-25###10
+Santiago de Chile, Valparaiso###Hovedstad i Chile###2015-09-25###4
+Bogota###Hovedstad i Colombia###2015-09-30###15
+San Jose###Hovedstad i Costa Rica###2015-09-23###1
+Havana###Hovedstad i Cuba###2015-09-28###13
+København###Hovedstad i Danmark###2015-09-29###9
+Djibouti###Hovedstad i Djibouti###2015-09-28###8
+Roseau###Hovedstad i Dominica###2015-10-01###9
+Santo Domingo###Hovedstad i Den Dominikanske Republikk###2015-09-24###9
+Fremre sagmuskel, Intercostalmuskel, Stor brystmuskel###Brystkassens muskler. Musculus serratus anterior, Musculi intercostales, Musculus pectoralis major###2015-09-28###8
+django-admin.py startproject foo --template=project_name###Django. Starte et nytt prosjekt foo fra project_name###2015-09-25###5
+url(r'^$', index, name='homepage')###Django. Gi urlpattern fra stammen som peker til index og navn homepage###2015-09-25###4
+url(r'^image/(?P<width>[0-9]+)x(?P<height>[0-9]+)/$', placeholder)###Django. Gi urlpattern fra image/ med tall i <width> x <height> som peker til placeholder###2015-09-24###9
+from django.conf.urls import url###Django. Importer url###2015-09-26###6
+from django.http import HttpResponse###Django. Importer HttpResponse###2015-09-25###10
+from django.conf import settings###Django. Importer settings###2015-09-23###7
+from django.core.wsgi import get_wsgi_application###Django. Importer get_wsgi_application###2015-10-06###14
+Quito###Hovedstad i Ecuador###2015-09-23###7
+Kairo###Hovedstad i Egypt###2015-09-28###13
+Malabo###Hovedstad i Ekvatorial-Guinea###2015-09-23###2
+San Salvador###Hovedstad i El Salvador###2015-10-04###13
+Yamoussoukro, Abidjan###Hovedstad i Elfenbenkyster###2015-09-25###4
+Asmara###Hovedstad i Eritrea###2015-09-26###6
+Tallinn###Hovedstad i Estland###2015-09-29###14
+Addis Abeba###Hovedstad i Etiopia###2015-09-26###6
+Musculus serratus anterior###Muskel i brystkassen. Fremre sagmuskel###2015-09-24###3
+:%s/foo/bar/gc###Vim. Search for foo and replace with bar throug all document, ask for confirmation###2015-09-29###7
+:%y+###Vim. yank all document to + register###2015-09-25###5
+perl-rename 'y/A-Z/a-z/' *###Terminal. gi filnavn i folder smaa bokstaver###2015-10-01###9
+[2*x for x in {2,4,6}];;;[x*2 for x in {2,4,6}]###Python, comprehensions. Lag en liste der du dobler elementene(x) i set {2,4,6}###2015-09-24###4
+[x*y for x in [1,2,4] for y in [5,6,7]]###Python, double comprehensions. Lag en liste med produktet av elementene(x) i [1,2,4] og elemetne(y)i[5,6,7]###2015-09-24###9
+{ x*x for x in {1,2,3,4,5} };;;{x**2 for x in {1,2,3,4,5}}###Python. Write a comprehension over {1, 2, 3, 4, 5} whose value is the set consisting of the squares of the first five positive integers.###2015-09-23###2
+datetime.strptime('2006-10-22', '%Y-%m-%d').date()###Python datetime, date make string '2006-10-22' ('YYYY-mm-dd') a valid date object###2015-09-24###3
+der###the; which; who; bestimmte artikel nomitave Maskulin; bestimmte artikel dat/gen feminien Form###2015-09-24###4
+die###the; which; who; bestimmte artikel nom/akk Feminin/Plural###2015-09-24###4
+und###Deutsche wörter. and; og; konjunksjon###2015-09-28###6
+Absinthe### wormwood liquor of a bright-green color###2015-09-27###7
+Acciaccatura### grace note, an embellishing note usually written in smaller size###2015-09-24###4
+in###Deutsche wörte. Norsk 'i', english at; chunkily; in; into; on###2015-09-26###6
+Acedia### ennui; state of torpor or listlessness; spiritual apathy###2015-09-26###5
+Acervuline### aggregated, heaped up, bundled, collected or localized###2015-09-27###5
+Acidulous### somewhat acidic or sour in taste or manner; somewhat sarcastic###2015-09-26###6
+Acolyte### ranked clergy member; assistant in liturgical rites###2015-09-27###5
+den###Deutsche wörte. Maskulin akkusativ artikel###2015-09-23###2
+von###Deutsche wörte. by; from; of; off###2015-09-27###5
+zu###at; for; to; too; toward; towards; unto###2015-09-23###3
+das###that; the; what; which; who###2015-09-25###5
+git rm --cached file###git. remove file from git without deleting it.###2015-09-25###5
+mit###width; med###2015-09-24###4
+Acoustic### of or relating to sound, the sense of hearing, or the science of sound###2015-09-25###4
+nominativ###artikkel form for subjekt###2015-09-26###6
+sich###Deutsche wörte. Himself/herself/itself; each other; seg###2015-09-25###5
+des###Maskulin/neutral genetiv artikel###2015-09-23###3
+akkusativ###artikkelform for direkte objekt###2015-09-23###3
+auf###Deutsche wörte. at; in; on; onto; to; up; upon###2015-09-26###4
+ist###Deutsche wörte. is; er###2015-09-23###3
+den fuẞball###akkustativ form av: der fuẞball###2015-09-23###3
+Acquiesce### to passively accept; to accept, comply, or submit passively###2015-09-25###3
+dativ###artikkelform for indirekte objekt###2015-09-24###4
+im###Deutsche wörte. at###2015-09-23###1
+dem###the; dative singular masculine of der;  dative singular neuter of das; bestimmte artikel; relative pronomen; Deutsche wörte###2015-09-23###1
+Adroit### quick or skillful; adept in action or thought###2015-09-26###4
+nicht###no; noddies; non; not. Deutsche wörte###2015-09-23###3
+ein###a; an; en; m/n artikkel; deutsche wörte###2015-09-23###2
+Die###bestimmter Artikel feminin/plural nominativ/akkusativ###2015-09-25###3
+eine###Deutsche wörte. ubestimmte artikel feminin n/a###2015-09-23###2
+dem Mann###dativ bestemt maskulin form: der Mann###2015-09-24###3
+der Frau###dativ bestemt feminin form: die Frau###2015-09-25###4
+dem Auto###dativ bestemt nøytral form: das Auto###2015-09-26###4
+einem Mann###dativ ubestemt maskulin form: ein Mann###2015-09-27###5
+uname -a###Display linux system information###2015-09-25###3
+uname -r###Display kernel release information###2015-09-27###5
+einer Frau###dativ ubestemt feminin form: eine Frau
