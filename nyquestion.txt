@@ -1,4 +1,4 @@
-MemScore: 146 average_cpm: 20 Answered: 141
+MemScore: 157 average_cpm: 20 Answered: 146
 Tirana###Hovestad i Albania###2015-09-27###14
 Alger###Hovestad i Agerie###2015-09-24###9
 Washington, D.C.###Hovestad i USA###2015-09-24###9
@@ -131,4 +131,16 @@ dem Auto###dativ bestemt nøytral form: das Auto###2015-09-26###4
 einem Mann###dativ ubestemt maskulin form: ein Mann###2015-09-27###5
 uname -a###Display linux system information###2015-09-25###3
 uname -r###Display kernel release information###2015-09-27###5
-einer Frau###dativ ubestemt feminin form: eine Frau
+einer Frau###dativ ubestemt feminin form: eine Frau###2015-09-26###4
+Adumbrate### to explain faintly or opaquely outline; describe###2015-09-25###3
+einem Auto###dativ ubestemt nøytral form: ein Auto###2015-09-25###3
+cat /etc/redhat_release ###Show which version of redhat installed###2015-09-25###3
+des Mannes###genetiv bestemt maskulin form av: der Mann###2015-09-24###2
+eines Mannes###genetiv ubestemt maskulin form av: ein Mann###2015-09-25###3
+uptime###Show how long system running + load###2015-09-24###2
+als###da, når, om, brukes for å indikere en tid for når noe skjer/har skjedd. hvis, dersom. like ... som, i sammenligning###2015-09-24###2
+auch###Deutsche wörter. også###2015-09-24###2
+der Frau###genetiv bestemt feminin form av: die Frau###2015-09-24###2
+einer Frau###genetiv ubestemt feminin form av: eine Frau###2015-09-26###4
+Aeipathy### continued passion; unyielding disease
+es

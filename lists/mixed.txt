@@ -1,8 +1,3 @@
-einem Auro###dativ ubestemt nøytral form: ein Auto
-des Mannes###genetiv bestemt maskulin form av: der Mann
-eines Mannes###genetiv ubestemt maskulin form av: ein Mann
-der Frau###genetiv bestemt feminin form av: die Frau
-einer Frau###genetiv ubestemt feminin form av: eine Frau
 des autos###genetiv bestemt nøytral form av: das Auto
 eines Autos###genetiv ubestemt nøytral form av: ein Auto
 s###genetiv. Hva legges til maskuline og nøytrale substantiv med endingene el, er eller en

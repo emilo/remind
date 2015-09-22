@@ -4,6 +4,10 @@ You need a questions.txt file in the format:
 definition###answer
 first line empty and no ending lines
 """
+from gettext import translation
+nb = translation('local', localedir='locale', languages=['nb'])
+nb.install()
+
 from time import time
 from datetime import date, timedelta, datetime
 from os import listdir
@@ -23,7 +27,7 @@ txt = open(questionfile).readlines()
 # read the first line for stats, if empty make it, make it list
 stats = txt[0]
 if stats == '\n':
-    stats = 'MemScore: 0 average_cpm: 100 Answered: 0'
+    stats = _('MemScore: 0 average_cpm: 100 Answered: 0')
 print(stats)
 stats = stats.split()
 
@@ -38,18 +42,18 @@ qcounter = 0  # for counting questions in a session
 def getnewquestion():
     xfiles = listdir('lists')  # readlines of files into list
     xfile = xfiles[randint(0, len(xfiles)-1)]
-    print('Reading expression file: lists/' + xfile)
+    print(_('Reading expression file: lists/') + xfile)
     expression = open('lists/' +
                       xfile, encoding='utf-8', errors='ignore').readlines()
     global txt
     txt.append(expression[0])
     if '###' in expression[0]:
         split = expression[0].split('###')
-        print('New expression is: ', split[0])
-        print('Definition is: ', split[1])
+        print(_('New expression is: '), split[0])
+        print(_('Definition is: '), split[1])
     else:
-        print('New expression is: ', expression[0])
-    input('Make it stick to memory, then kick enter')
+        print(_('New expression is: '), expression[0])
+    input(_('Make it stick to memory, then kick enter'))
     writefile = open('lists/' + xfile, 'w')
     writefile.writelines(expression[1:])
 
@@ -58,18 +62,18 @@ def save():
     # Write line to file
     writefile = open(questionfile, 'w')
     writefile.writelines(txt)
-    print('wrote file')
+#    print(_('wrote file'))
 
 
 def goodanswer():
     global timer, score, totalscore, averagecpm, totalanswered
     # Calcultate characters per minute
     cpm = int(len(answer)/(time()-timer)*60)
-    print('Good: %s characters per minute' % cpm)
+    print(_('Good: %s characters per minute') % cpm)
     # Scorebonus dependent on speed
     scorebonus = int(cpm/averagecpm)
     score = score + scorebonus + 1
-    print('Speed bonus: %s ' % scorebonus)
+    print(_('Speed bonus: %s ') % scorebonus)
     totalanswered = totalanswered + 1
     # calculate new average cpm
     averagecpm = int((averagecpm*(totalanswered-1)+cpm)/totalanswered)
@@ -92,8 +96,8 @@ for i in range(1, len(txt)):
         print(expression)
         definition = ''
         while definition == '':
-            definition = input('Please define %s : ' % expression)
-            confirmation = input('confirm with "ja": ')
+            definition = input(_('Please define %s : ') % expression)
+            confirmation = input(_('confirm with "ja": '))
             if confirmation != 'ja':
                 definition = ''
         line.append(definition)
@@ -108,13 +112,18 @@ for i in range(1, len(txt)):
 
     # Ask question if date says so
     if qdate <= date.today():
+        for z in range(100):
+            print('\n')
         qcounter += 1
-        print('Definition is: ')
         print(definition)
-        print('Give the expression: ')
         timer = time()
+        for z in range(5):
+            print('')
+        print(_('Give the expression: '))
         answer = input()
-        if answer == 'save':
+        for z in range(3):
+            print('')
+        if answer == _('save'):
             save()
             exit(0)
         # make a list splittet with ';;;'
@@ -126,16 +135,16 @@ for i in range(1, len(txt)):
         else:
             score = score - 1
             print(elist)
-            print('Something wrong here')
-            print('you can of course add your answer as synonyme')
+            print(_('Something wrong here'))
+            print(_('you can of course add your answer as synonyme'))
             errorinput = input()
-            if errorinput == 'synonyme':
+            if errorinput == _('synonyme'):
                 elist.append(answer)
                 line[0] = ';;;'.join(elist)
+        print(_('Next repetition: '), line[2])
         line[2] = str(date.today() + timedelta(days=score))
         line[3] = str(score)
         txt[i] = '###'.join(line) + '\n'
-        print(txt[i])
         save()
         input()
     # make the relevant elements of stats string
@@ -147,21 +156,17 @@ for i in range(1, len(txt)):
 
 if numquestions - qcounter > 0:
     newexpressions = numquestions - qcounter
-    print('New expressions: ', newexpressions)
+    print(_('New expressions: '), newexpressions)
 
 while newexpressions > 0:
     try:
         getnewquestion()
         newexpressions -= 1
     except:
-        print('This expression file is probably empty')
+        print(_('This expression file is probably empty'))
         input()
 save()
 
 # print the stats
 print(txt[0])
-print("You are good!")
-'''
-Todo:
- - make it possible to have different answers
-'''
+print(_("You are good!"))
