@@ -1,4 +1,4 @@
-MemScore: 372 average_cpm: 16 Answered: 227
+MemScore: 394 average_cpm: 15 Answered: 236
 Tirana###Hovestad i Albania###2015-11-27###18
 Alger###Hovestad i Agerie###2015-12-02###23
 Washington, D.C.###Hovestad i USA###2015-11-29###20
@@ -9,17 +9,17 @@ Bueno Aires###Hovestad i Argentina###2015-11-29###20
 Jerevan###Hovestad i Armenia###2015-11-28###19
 Baku###Hovestad i Aserbadshan###2015-11-18###9
 Canberra###Hovestad i Australia###2015-12-02###23
-date.today()###(python, date) Get date of today###2015-11-03###12
-open('s').readlines()###Read the lines of file s###2015-11-05###14
-for i in range(len(txt)):###with the text file txt go through all the lines(i)###2015-11-02###3
-s.strip().split(';')###remove whitespace first and last in string s and split the words with ; ###2015-11-04###13
-l.append('word')###add 'word' to list l###2015-11-03###12
-datetime.strptime(s, '%Y-%m-%d').date()###python datetime, date make string s ('YYYY-mm-dd') a valid date object###2015-11-05###14
-input()###Python, let user give input###2015-11-04###13
-date.today() + timedelta(days=3)###Python date timedelta, date in three days###2015-11-09###10
-';'.join(l)###make a string of the elements of list l separated with ;###2015-11-02###11
-open('myfile', 'w')###python, Open file myfile for writing###2015-11-06###7
-myfile.writelines(txt)###Python, Write the lines txt in myfile###2015-11-05###6
+date.today()###(python, date) Get date of today###2015-12-01###22
+open('s').readlines()###Read the lines of file s###2015-11-26###17
+for i in range(len(txt)):###with the text file txt go through all the lines(i)###2015-11-15###6
+s.strip().split(';')###remove whitespace first and last in string s and split the words with ; ###2015-11-24###15
+l.append('word')###add 'word' to list l###2015-11-26###17
+datetime.strptime(s, '%Y-%m-%d').date();;;datetime.strptimpe(s, '%Y-%m-%d').date()###python datetime, date make string s ('YYYY-mm-dd') a valid date object###2015-11-22###13
+input()###Python, let user give input###2015-11-27###18
+date.today() + timedelta(days=3)###Python date timedelta, date in three days###2015-11-23###14
+';'.join(l)###make a string of the elements of list l separated with ;###2015-11-21###12
+open('myfile', 'w')###python, Open file myfile for writing###2015-11-20###11
+myfile.writelines(txt)###Python, Write the lines txt in myfile###2015-11-19###10
 da'###Vim. Delete a singel quote###2015-11-01###10
 len('string')/(time()-timer)*60###Python, time, find cpm. 'string' is written since timer###2015-11-02###3
 Nassau###Hovedsstad i Bahamas###2015-11-02###3

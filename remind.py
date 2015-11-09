@@ -110,7 +110,7 @@ for i in range(1, len(txt)):
     score = int(line[3])
 
     # Ask question if date says so
-    if qdate <= date.today():
+    while qdate <= date.today():
         for z in range(100):
             print('\n')
         qcounter += 1
@@ -142,6 +142,7 @@ for i in range(1, len(txt)):
                 elist.append(answer)
                 line[0] = ';;;'.join(elist)
         line[2] = str(date.today() + timedelta(days=score))
+        qdate = datetime.strptime(line[2], '%Y-%m-%d').date()
         print(_('Next repetition: '), line[2])
         line[3] = str(score)
         txt[i] = '###'.join(line) + '\n'
