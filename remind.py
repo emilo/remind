@@ -17,7 +17,6 @@ from sys import exit
 # mulighet til forandre definisjon
 # mulighet til legge til avgitt svar som riktig uttrykk til definisjonen
 # mulighet til slette definisjon og uttrykk
-# rens skjermen for hver oppgave
 
 
 # Open the question file and read the lines into txt list
@@ -81,7 +80,7 @@ def goodanswer():
     totalscore += scorebonus
 
 
-numquestions = 5
+numquestions = 10
 newexpressions = 0
 
 
@@ -115,6 +114,7 @@ for i in range(1, len(txt)):
         for z in range(100):
             print('\n')
         qcounter += 1
+        print(_('Question number '), qcounter)
         print(definition)
         timer = time()
         for z in range(5):
@@ -141,8 +141,8 @@ for i in range(1, len(txt)):
             if errorinput == _('synonyme'):
                 elist.append(answer)
                 line[0] = ';;;'.join(elist)
-        print(_('Next repetition: '), line[2])
         line[2] = str(date.today() + timedelta(days=score))
+        print(_('Next repetition: '), line[2])
         line[3] = str(score)
         txt[i] = '###'.join(line) + '\n'
         save()

@@ -1,6 +1,16 @@
-des autos###genetiv bestemt nøytral form av: das Auto
 eines Autos###genetiv ubestemt nøytral form av: ein Auto
 s###genetiv. Hva legges til maskuline og nøytrale substantiv med endingene el, er eller en
 es###genetiv. Hva legges til de fleste maskuline og nøytrale enstavelses suvstantiv (der Mann)
 mir###Dativ i: er gibt mir das buch
-genetiv
+am###an dem
+ans###das
+im###in dem
+ins###in das
+beim###bei dem
+vom###von dem
+zum###zu dem
+zur###zu der
+durch, bis, für, ohne, entlang, gegen, um###Präpositonen mit dem Akkusativ
+bei, mit, seit, aus, zu, nach, von###Präpositionen mit dem Dativ
+hinter, an, neben, auf, unter, zwischen, vor, in, über###Wechselpräpositionen
+pygettext.py -d locale remind.py###Python, gettext. Lag en ny pot-fil locale fra remind.py
