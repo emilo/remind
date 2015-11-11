@@ -35,7 +35,7 @@ totalscore = int(stats[1])  # Total score
 averagecpm = int(stats[3])  # Average Characters per minute
 totalanswered = int(stats[5])  # Total answered right
 
-qcounter = 0  # for counting questions in a session
+qcounter = 1  # for counting questions in a session
 
 
 def getnewquestion():
@@ -65,7 +65,7 @@ def save():
 
 
 def goodanswer():
-    global timer, score, totalscore, averagecpm, totalanswered
+    global qcounter, timer, score, totalscore, averagecpm, totalanswered
     # Calcultate characters per minute
     cpm = int(len(answer)/(time()-timer)*60)
     print(_('Good: %s characters per minute') % cpm)
@@ -78,6 +78,7 @@ def goodanswer():
     averagecpm = int((averagecpm*(totalanswered-1)+cpm)/totalanswered)
     # Update score
     totalscore += scorebonus
+    qcounter += 1
 
 
 numquestions = 10
@@ -113,7 +114,6 @@ for i in range(1, len(txt)):
     while qdate <= date.today():
         for z in range(100):
             print('\n')
-        qcounter += 1
         print(_('Question number '), qcounter)
         print(definition)
         timer = time()

@@ -1,4 +1,4 @@
-MemScore: 394 average_cpm: 15 Answered: 236
+MemScore: 437 average_cpm: 15 Answered: 249
 Tirana###Hovestad i Albania###2015-11-27###18
 Alger###Hovestad i Agerie###2015-12-02###23
 Washington, D.C.###Hovestad i USA###2015-11-29###20
@@ -20,42 +20,42 @@ date.today() + timedelta(days=3)###Python date timedelta, date in three days###2
 ';'.join(l)###make a string of the elements of list l separated with ;###2015-11-21###12
 open('myfile', 'w')###python, Open file myfile for writing###2015-11-20###11
 myfile.writelines(txt)###Python, Write the lines txt in myfile###2015-11-19###10
-da'###Vim. Delete a singel quote###2015-11-01###10
-len('string')/(time()-timer)*60###Python, time, find cpm. 'string' is written since timer###2015-11-02###3
-Nassau###Hovedsstad i Bahamas###2015-11-02###3
-Manama###Hovedsstad i Bahrain###2015-11-04###5
-Dhaka###Hovedsstad i Bangladesh###2015-11-06###7
-Bridgetown###Hovedsstad i Barbados###2015-11-02###3
-Brussel###Hovedsstad i Belgia###2015-11-05###14
-Belmopan###Hovedsstad i Belize###2015-10-30###8
-Porto-Novo###Hovedsstad i Benin###2015-10-30###8
-Thimpu###Hovedsstad i Bhutan###2015-11-04###13
-Sucre ,La Paz###Hovedsstad i Bolivia###2015-10-29###7
-Sarajevo###Hovedsstad i Bosnia-Hecegovina###2015-11-07###16
-Gaborone###Hovedsstad i Botswana###2015-11-01###10
-Brasilia###Hovedsstad i Brasil###2015-10-30###8
-Bandar Seri Begawan###Hovedsstad i Brunei###2015-10-25###3
-Sofia###Hovedsstad i Bulgaria###2015-11-06###15
-Ouagadougou###Hovedsstad i Burkina Faso###2015-10-28###6
-Bujumbura###Hovedsstad i Burundi###2015-10-25###3
-from sys import argv###Python. Import argv###2015-10-31###9
-script, filename = argv###Python. Set filename to be argv###2015-09-28###9
-:e!###Vim. Force reload of open file###2015-09-29###7
-:%s/s/ss/g###Vim. Substiture s with ss in document###2015-09-26###7
-40%###Trening. Omtrent andel muskler av kroppsvekt###2015-09-26###7
-epimysium perimysium endomysium;;;epimysium, perimysium, endomysium###Trening. Muskel ytterst til innerst###2015-09-27###6
-biceps, triceps###Trening. Muskelpar foran og bak overarm###2015-09-26###7
-quadriceps, hamstrings###Trening. Muskelpar foran og bak laar###2015-09-26###7
-abdominals, erector spinae###Trening. Muskelpar foran og bak overkroppen###2015-09-28###9
-myofibril###Trening. Musklfibre bestaar av###2015-09-26###7
-sarcomere###Trening. Blokker av myofibril kalles###2015-10-07###15
-actin, myosin###Trening. Sarcomere bestaar av proteinene###2015-10-02###10
-concentric###Trening. When the muscle develops tension as it shortens###2015-09-26###13
-eccentric###Trening. When the muscle develops tension as it lengthens###2015-10-02###10
-isometric###Trening. When tension is created but the muscle does not move###2015-10-04###10
-nei###Trening. Kan en musklelfiber gjore delvis sammentrekning?###2015-09-27###8
-type1, red, high mitochondria###Trening. Features of Slow twitch muscles(for low intesity and longer duration)###2015-10-08###14
-type2, white, low mitochondria###Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###2015-09-28###9
+da'###Vim. Delete a singel quote###2015-11-21###12
+len('string')/(time()-timer)*60###Python, time, find cpm. 'string' is written since timer###2015-11-12###2
+Nassau###Hovedsstad i Bahamas###2015-11-12###2
+Manama###Hovedsstad i Bahrain###2015-11-14###4
+Dhaka###Hovedsstad i Bangladesh###2015-11-16###6
+Bridgetown###Hovedsstad i Barbados###2015-11-12###2
+Brussel###Hovedsstad i Belgia###2015-11-30###20
+Belmopan###Hovedsstad i Belize###2015-11-21###11
+Porto-Novo###Hovedsstad i Benin###2015-11-21###11
+Thimpu###Hovedsstad i Bhutan###2015-11-26###16
+Sucre ,La Paz;;;La Paz###Hovedsstad i Bolivia###2015-11-16###6
+Sarajevo###Hovedsstad i Bosnia-Hecegovina###2015-11-30###20
+Gaborone###Hovedsstad i Botswana###2015-11-23###13
+Brasilia###Hovedsstad i Brasil###2015-11-17###7
+Bandar Seri Begawan###Hovedsstad i Brunei###2015-11-19###9
+Sofia###Hovedsstad i Bulgaria###2015-12-01###21
+Ouagadougou###Hovedsstad i Burkina Faso###2015-11-15###5
+Bujumbura###Hovedsstad i Burundi###2015-11-12###2
+from sys import argv###Python. Import argv###2015-11-18###8
+script, filename = argv###Python. Set filename to be argv###2015-11-18###8
+:e!###Vim. Force reload of open file###2015-11-16###6
+:%s/s/ss/g###Vim. Substiture s with ss in document###2015-11-16###6
+40%###Trening. Omtrent andel muskler av kroppsvekt###2015-11-19###9
+epimysium perimysium endomysium;;;epimysium, perimysium, endomysium###Trening. Muskel ytterst til innerst###2015-11-15###5
+biceps, triceps;;;biceps triceps###Trening. Muskelpar foran og bak overarm###2015-11-16###6
+quadriceps, hamstrings###Trening. Muskelpar foran og bak laar###2015-11-23###13
+abdominals, erector spinae###Trening. Muskelpar foran og bak overkroppen###2015-11-18###8
+myofibril###Trening. Musklfibre bestaar av###2015-11-16###6
+sarcomere###Trening. Blokker av myofibril kalles###2015-11-24###14
+actin, myosin###Trening. Sarcomere bestaar av proteinene###2015-11-19###9
+concentric###Trening. When the muscle develops tension as it shortens###2015-11-25###15
+eccentric###Trening. When the muscle develops tension as it lengthens###2015-11-26###16
+isometric###Trening. When tension is created but the muscle does not move###2015-11-19###9
+nei;;;no###Trening. Kan en musklelfiber gjore delvis sammentrekning?###2015-11-17###7
+type1, red, high mitochondria###Trening. Features of Slow twitch muscles(for low intesity and longer duration)###2015-11-23###13
+type2, white, low mitochondria###Trening. Features of Fast Twitch muscles(for high intensity and shorter duration)###2015-11-25###15
 hypotrophy###Trening. Alias for muscle growth###2015-09-25###5
 testosteron;;;testosterone###Trening. Key ingredient for muscelgrowth when fiber is damaged and satelite cell is drawn in and building more protein strands###2015-09-25###5
 Excess Post-exercise Oxygen Consumption###Trening. EPOC###2015-09-26###6
